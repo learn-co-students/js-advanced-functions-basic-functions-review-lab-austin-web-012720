@@ -31,7 +31,7 @@ const Calculator = {
 }
 
 let actionApplyer = function(int, functions) {
-    let a = start 
+    let a = int
 
     for (let i =0; i < functions.length; i++ ) {
         a = functions[i](a)
